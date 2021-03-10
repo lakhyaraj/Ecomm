@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body bgcolor="cyan">
+    <h1><font face="algerian" color="red"><u>ADD YOUR ADDRESS</u></font></h1>
+    <form action="address.php" method="POST">
+      <label for="state">State</label>
+      <select name="country" id="cntry">
+       
+        <option value="selectstate">choose a option</option>
+        <option value="jammu&kashmir">Jammu & Kashmir</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Madhapradesh">Madhapradesh</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Uttar Prades">Uttar Pradesh</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Tamilnadu">Tamilnadu</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="West Bengal">West Bengal</option>
+        <option value="Nagaland">Nagaland</option>
+        <option value="Kerela">Kerela</option>
+        <option value="Chattisgarh">Chattisgarh</option>
+        <option value="Assam">Assam</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Gujrat">Gujrat</option>
+      
+      </select>
+        <p><label for="username">Enter Your Full Name</label>
+        <INPUT TYPE="text" id="username" placeholder="ex:-kishan" name="name"></INPUT></p>
+        <p><label for="number">Enter Your Mobile Number</label>
+        <input type="number" placeholder="mobilenumber" id="number" name="mob"></p>
+        <p><label for="pincode">PIN Code</label>
+        <input type="number" placeholder="ex:-756003" id="number2" name="pin"></p> 
+        <p> <label for="address">Enter Address</label><br>
+        <input type="textarea" placeholder="flat,house no,building,company" id="address1"><br>
+        <input type="textarea" placeholder="area,colony,village" id="address2"><br>
+        <input type="textarea" placeholder="landmark" id="address3"><br>
+        <input type="textarea" placeholder="Town/City" id="address4" name="ad"></p><br>
+        <!-- <a href="payement.html" style="color:white"><span style="width:10%;border:1px solid;padding:1% 1%;text-transform: uppercase;font-size:15px;font-weight:600;background-color:blue;border-radius:10px;" class="ml-3"><i class="fa fa-bolt" aria-hidden="true"></i><span class="ml-2">Deliver To This Address</span></span></a><br> -->
+        <button type="submit" name="submit">Deliver To This Address</button>
+        <h2>Preferences are used to plan your delivery.However ,
+          shipments can sometimes arrive early or later then planned...</h2>
+
+
+    </form>
+</body>
+</html>
